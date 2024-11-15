@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Squada+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    font-family: "Ubuntu", sans-serif;
+    
+}
+
+.fuenteTitulo {
+    color: rgb(25, 17, 94);
+    font-family: "Squada One", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+body {
+    background-color: #cac6c6;
+}
+
+.fuenteNegrita {
+    font-weight: 700;
+}
+
+header {
+    background-color: rgb(247, 247, 247);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    nav {
+        width: 100%;
+    }
+    ul {
+        display: flex;
+        justify-content: space-between; /* Espacio entre cada elemento */
+        align-items: center;
+        list-style: none; /* Quita los puntos de la lista */
+        padding: 0;
+        margin: 0;
+    }
+    a {
+        text-decoration: none;
+        color: #333;
+        padding: 10px 15px; /* Espaciado alrededor de cada enlace */
+        font-size: 18px;
+        transition: color 0.3s ease;
+    }
+    a:hover {
+        color: #3400c4;
+    }
+}
+
+.mainIndex {
+    background-color: rgb(239, 239, 239) ;
+}
+
+footer {
+    background-color: rgb(223, 223, 223);
+    border-radius: 8px;
+    ul {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+    }
+    .fa-facebook {
+        color: rgb(2, 2, 202);
+        font-size: 32px;
+    }
+    .fa-instagram{
+        color: rgb(255, 0, 128);
+        font-size: 32px;
+    }
+    .fa-whatsapp {
+        color: #00d44e;
+        font-size: 64px;
+    }
+}
+
+/* Estilos index.html */
+
+/* Estilos carrito.html */
+
+/* Estilos contacto.html*/
+
+.contacto {
+    text-align: justify;
+/*    padding: 0% 5% 5%;
+    margin-top: 80px;
+*/    
+}
+
+.formulario {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+}
+
+.fa-address-card {
+    margin-left: 10px;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /*padding: 10px;*/
+    margin-bottom: 10px;
+}
+
+/* Estilos preguntas_frecuentes.html */
